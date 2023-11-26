@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Help Me Read",
+  "version": "0.1.0",
+  "description": "Makes the first half of each word bold",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": {
+      "128": "hmr.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["hmr.js"]
+    }
+  ]
+}
