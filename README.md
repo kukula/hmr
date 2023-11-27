@@ -4,6 +4,11 @@
 
 "Help Me Read!" is a Chrome extension that makes the first half of each word bold. This simple yet effective approach helps to enhance concentration and focus on details while reading. Ideal for users who find it easier to process text when it's visually segmented, this extension aims to improve the reading experience on any webpage.
 
+## Demo
+
+[![Help me read!](screenshot.png)](https://www.youtube.com/watch?v=juDB2m_1QVY)
+
+
 ## Installation for Users
 
 1. Download the extension from the Chrome Web Store.
